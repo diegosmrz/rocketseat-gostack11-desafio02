@@ -58,14 +58,15 @@ app.put("/repositories/:id", validateRepoExists, (request, response) => {
 });
 
 //should be able to delete the repository
-app.delete("/repositories/:id", validateUuid, validateRepoExists, (request, response) => {
+app.delete("/repositories/:id", validateUuid, (request, response) => {
   const { id } = request.params;
   const index = repositories.findIndex(repository => repository.id === id);
+  const repo = repositories[index];
   if (index < 0) {
     return response.status(400);
   }
   repositories.splice(index, 1);
-  return response.status(200);
+  return response.status(204).json(repo);
 });
 
 //should be able to give a like to the repository
