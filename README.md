@@ -1,5 +1,5 @@
 <h1 align="center">
-  Rocket Seat - GoStack 11
+  Rocket Seat - Desafio: Conceitos do NodeJS
 </h1>
 
 <p align="center">
@@ -14,7 +14,7 @@
   
 </p>
 
-## GoStack RocketSeat
+## GoStack da RocketSeat
 O goStack é um Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobile.
 
 ### Sobre o desafio
