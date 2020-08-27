@@ -1,5 +1,5 @@
 <h1 align="center">
-  Rocket Seat - Desafio: Conceitos do NodeJS
+  Rocket Seat - Desafio 02: Conceitos do ReactJS 
 </h1>
 
 <p align="center">
