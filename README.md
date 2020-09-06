@@ -3,6 +3,10 @@
 </h1>
 
 <p align="center">
+  
+  <img alt="GitHub language count" src="https://img.shields.io/github/last-commit/diegomrz/rocketseat-gostack11-desafio02">
+  
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diegomrz/rocketseat-gostack11-desafio02">
 
   <a href="https://www.linkedin.com/in/diegomrz/">
     <img alt="Made by diegomrz" src="https://img.shields.io/badge/linkedin-diegomrz-blue">
@@ -27,7 +31,7 @@ Template da aplicação
 
 Agora que você já está com o template clonado, e pronto para continuar, você deve abrir o arquivo app.js, e completar onde não possui código com o código para atingir os objetivos de cada rota.
 
-    POST /repositories: A rota deve receber title, url e techs dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: { id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
+- POST /repositories: A rota deve receber title, url e techs dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: { id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
 
 - GET /repositories: Rota que lista todos os repositórios;
 
